@@ -1,0 +1,116 @@
+/* GENERAL */
+
+@media screen and (max-width: 500px) { 
+	{width:70%;} 
+  }
+@media screen and (max-device-width: 800px) {
+	html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+	.vid { display: none; }
+  }
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 1em;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+
+	margin: 0 auto;
+	padding: 0 auto;
+	height: 600px; 
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: #444;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 1000px;
+    z-index: -100;
+    overflow: auto;
+    transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+}
+
+
+/* HEADER */
+
+header #nav_bar{
+	position: fixed;
+	top: 0;
+	height: 70px;
+	width: 100%;
+	border: 1px solid #444;
+}
+
+#nav_bar nav{
+    height: inherit;
+	padding: 20px 100px 0 0;
+}
+
+#nav_bar nav ul li{
+	display: inline-block;
+	height: 30px;
+	width: 120px;
+    float: right;
+}
+
+#nav_bar nav ul li:first-child{
+    height: none;
+	width: none;
+	float: left;
+}
+
+#nav_bar nav ul li a{
+	display: block;
+	height: 30px;
+	width: 120px;
+	margin-right: 20px;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+    color: #777fff;
+    font-size: 1.2em;
+}
+
+#nav_bar nav ul li img{
+    border-radius: 6px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 3px 3px 5px #444;
+    transform: translateX(20px) translateY(-10px);
+}
+
+div #img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    height: 500px;
+    width: 100%;
+}
+
+.img-1{
+    height: 200px;
+    width: 200px;
+}
